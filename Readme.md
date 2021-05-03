@@ -12,10 +12,10 @@ Di xampp, di bagian apache dan my sql tekan bagian start agar bisa membuat datab
 Di platform website yang kalian gunakan ketik : localhost/phpmyadmin
 Kemudian ke bagian import dan import file telepon.sql
 
-..
+
 Untuk membuka web API tersebut, ketik di platform website yang kalian gunakan :
 http://127.0.0.1/rest_ci_client/index.php/kontak
-..
+
 Kegunaan dari Web API ini :
 
 1. Dapat menambah data kontak
