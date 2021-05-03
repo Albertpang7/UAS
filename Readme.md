@@ -16,6 +16,7 @@ Setelah masuk, di bagian bawah ada bagian console ketikan :
 CREATE DATABASE kontak;
 ```
 baru control + enter untuk eksekusi
+
 Setelah itu ketik lagi :
 ```html
 USE kontak;
@@ -27,6 +28,7 @@ CREATE TABLE IF NOT EXISTS `telepon` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 ```
 baru control + enter 
+
 Terakhir :
 ```html
 USE kontak;
