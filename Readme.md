@@ -14,7 +14,9 @@ Di platform website yang kalian gunakan ketik : localhost/phpmyadmin
 Setelah masuk, di bagian bawah ada bagian console ketikan :
 
 CREATE DATABASE kontak;
+
 baru control + enter untuk eksekusi
+
 Setelah itu ketik lagi :
 
 USE kontak;
@@ -24,7 +26,9 @@ CREATE TABLE IF NOT EXISTS `telepon` (
   `nomor` varchar(13) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
 baru control + enter 
+
 Terakhir :
 
 USE kontak;
@@ -32,6 +36,7 @@ INSERT INTO `telepon` (`id`, `nama`, `nomor`) VALUES
 (1, 'Brody', '08576666792'),
 (2, 'Thamuz', '08576666791'),
 (7, 'Layla', '08576666743');
+
 baru control + enter
 
 
