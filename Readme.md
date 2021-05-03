@@ -9,7 +9,9 @@ sampai muncul dua folder yaitu rest_ci sebagai server dan rest_ci_client sebagai
 Setelah itu, pindahkan kedua folder itu ke dalam htdocs pada direktori xampp atau webserver yang kalian gunakan.
 
 Di xampp, di bagian apache dan my sql tekan bagian start agar bisa membuat database terlebih dahulu
+
 Di platform website yang kalian gunakan ketik : localhost/phpmyadmin
+
 Kemudian ke bagian import dan import file telepon.sql
 
 
