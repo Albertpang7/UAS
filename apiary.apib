@@ -1,0 +1,215 @@
+FORMAT: 1A
+HOST: http://127.0.0.1/rest_ci/index.php/kontak/
+
+# Albertpang7 
+
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Kontak [/telepon]
+
+### List Kontak [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": "1",
+                "nama": "Orion",
+                "nomor": "08576666762"
+            }
+            {
+                "id": "2",
+                "nama": "Mars",
+                "nomor": "08576666770"
+            }
+            {
+                "id": "7",
+                "nama": "Alpha",
+                "nomor": "08576666765"
+            }
+        ]
+        
+### Create Kontak [POST]
+
++ Request (application/json)
+
+        {
+            "id": "8",
+            "nama":"Hi",
+            "nomor":"08827342122"
+        }
+        {
+            "id": "9",
+            "nama":"kiki",
+            "nomor":"0873237141412"
+        }
+        {
+            "id": "10",
+            "nama":"Mina",
+            "nomor":"0881273122312"
+        }
+        {
+            "id": "11",
+            "nama":"Gano",
+            "nomor":"0881273123412"
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+             Location: http://127.0.0.1/rest_ci/index.php/kontak/  
+
+    + Body
+
+            {
+                [
+                   { 
+                      "id": "1",
+                      "nama": "Orion",
+                      "nomor": "08576666762"
+                    }
+                    { 
+                      "id": "2",
+                      "nama": "Mars",
+                      "nomor": "08576666770"
+                    }
+                    { 
+                      "id": "7",
+                      "nama": "Alpha",
+                      "nomor": "08576666765"
+                    }
+                    { 
+                       "id": "8",
+                       "nama":"Hi",
+                       "nomor":"08827342122"
+                    }
+                    {
+                       "id": "9",
+                       "nama":"kiki",
+                       "nomor":"0873237141412"
+                    }
+                    {
+                       "id": "10",
+                       "nama":"Mina",
+                       "nomor":"0881273122312"
+                    }
+                    {
+                       "id": "11",
+                       "nama":"Gano",
+                       "nomor":"0881273123412"
+                    }
+                ]
+            }
+
+### Edit Kontak [PUT]
+
++ Request (application/json)
+
+        {
+            "id":"8",
+            "nama":"Hai",
+            "nomor":"08827342123"
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: http://127.0.0.1/rest_ci/index.php/kontak/  
+
+
+    + Body
+
+            {
+                [
+                   { 
+                      "id": "1",
+                      "nama": "Orion",
+                      "nomor": "08576666762"
+                    }
+                    { 
+                      "id": "2",
+                      "nama": "Mars",
+                      "nomor": "08576666770"
+                    }
+                    { 
+                      "id": "7",
+                      "nama": "Alpha",
+                      "nomor": "08576666765"
+                    }
+                    { 
+                       "id": "8",
+                       "nama":"Hai",
+                       "nomor":"08827342123"
+                    }
+                    {
+                       "id": "9",
+                       "nama":"kiki",
+                       "nomor":"0873237141412"
+                    }
+                    {
+                       "id": "10",
+                       "nama":"Mina",
+                       "nomor":"0881273122312"
+                    }
+                    {
+                       "id": "11",
+                       "nama":"Gano",
+                       "nomor":"0881273123412"
+                    }
+                ]
+            }
+            
+
+### Delete Kontak [DELETE]
+
++ Request (application/json)
+
+        {
+            "id": "11",
+            "nama":"Gano",
+            "nomor":"0881273123412"
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: http://127.0.0.1/rest_ci/index.php/kontak/  
+
+    + Body
+
+            {
+                [
+                   { 
+                      "id": "1",
+                      "nama": "Orion",
+                      "nomor": "08576666762"
+                    }
+                    { 
+                      "id": "2",
+                      "nama": "Mars",
+                      "nomor": "08576666770"
+                    }
+                    { 
+                      "id": "7",
+                      "nama": "Alpha",
+                      "nomor": "08576666765"
+                    }
+                    { 
+                       "id": "8",
+                       "nama":"Hi",
+                       "nomor":"08827342122
+                    }
+                    {
+                       "id": "9",
+                       "nama":"kiki",
+                       "nomor":"0873237141412"
+                    }
+                    {
+                       "id": "10",
+                       "nama":"Mina",
+                       "nomor":"0881273122312"
+                ]
+            }
