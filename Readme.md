@@ -2,11 +2,12 @@ Sebelum membuka Web API ini dibutuhkan :
 
 1. Webserver seperti xampp, wampp dan lain-lain
 2. Kontak.zip yang ada di dalam repository
+3. File database yaitu telepon.sql
 
 Setelah semua yang dibutuhkan sudah siap, extract Kontak.zip tersebut 
-sampai muncul dua folder yaitu rest_ci sebagai server dan rest_ci_client sebagai client.
+sampai muncul tiga folder yaitu rest_ci sebagai server dan rest_ci_client sebagai client dan telepon.sql sebagai database.
 
-Setelah itu, pindahkan kedua folder itu ke dalam htdocs pada direktori xampp atau webserver yang kalian gunakan.
+Setelah itu, pindahkan ketiga folder itu ke dalam htdocs pada direktori xampp atau webserver yang kalian gunakan.
 
 Di xampp, di bagian apache dan my sql tekan bagian start agar bisa membuat database terlebih dahulu
 
