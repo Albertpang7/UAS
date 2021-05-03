@@ -17,10 +17,10 @@ CREATE DATABASE kontak;
 
 baru control + enter untuk eksekusi
 Setelah itu ketik lagi :
-
+'''html
 USE kontak;
 
-//CREATE TABLE IF NOT EXISTS `telepon` (
+CREATE TABLE IF NOT EXISTS `telepon` (
 
   `id` int(11) NOT NULL AUTO_INCREMENT,
 
@@ -31,7 +31,7 @@ USE kontak;
   PRIMARY KEY (`id`)
 
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
-
+'''
 baru control + enter 
 Terakhir :
 
