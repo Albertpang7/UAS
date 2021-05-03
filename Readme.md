@@ -20,7 +20,7 @@ Setelah itu ketik lagi :
 
 USE kontak;
 
-CREATE TABLE IF NOT EXISTS `telepon` (
+//CREATE TABLE IF NOT EXISTS `telepon` (
 
   `id` int(11) NOT NULL AUTO_INCREMENT,
 
