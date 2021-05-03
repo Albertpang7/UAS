@@ -12,9 +12,9 @@ Di xampp, di bagian apache dan my sql tekan bagian start agar bisa membuat datab
 Di platform website yang kalian gunakan ketik : localhost/phpmyadmin
 
 Setelah masuk, di bagian bawah ada bagian console ketikan :
-
+```html
 CREATE DATABASE kontak;
-
+```
 baru control + enter untuk eksekusi
 Setelah itu ketik lagi :
 ```html
@@ -28,17 +28,13 @@ CREATE TABLE IF NOT EXISTS `telepon` (
 ```
 baru control + enter 
 Terakhir :
-
+```html
 USE kontak;
-
 INSERT INTO `telepon` (`id`, `nama`, `nomor`) VALUES
-
 (1, 'Brody', '08576666792'),
-
 (2, 'Thamuz', '08576666791'),
-
 (7, 'Layla', '08576666743');
-
+```
 baru control + enter
 
 Untuk membuka web API tersebut, ketik di platform website yang kalian gunakan :
