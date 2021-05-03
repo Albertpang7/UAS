@@ -35,7 +35,7 @@ USE kontak;
 INSERT INTO `telepon` (`id`, `nama`, `nomor`) VALUES
 (1, 'Brody', '08576666792'),
 (2, 'Thamuz', '08576666791'),
-(7, 'Layla', '08576666743');
+(3, 'Layla', '08576666743');
 ```
 baru control + enter
 
